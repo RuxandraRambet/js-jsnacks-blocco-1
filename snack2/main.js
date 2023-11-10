@@ -6,14 +6,16 @@
 const parolaUno = prompt('Inserisci la prima parola');
 const parolaDue = prompt('Inserisci la seconda parola');
 
+console.log(parolaUno, parolaDue);
+
 // Salvo in 2 var i numeri di caratteri delle parole
 const lunghezzaParolaUno = parolaUno.length;
 const lunghezzaParolaDue = parolaDue.length;
 
 if (lunghezzaParolaUno > lunghezzaParolaDue) {
-    console.log (parolaDue);
+    console.log ('La parola più corta è: ', parolaDue);
 }else if (lunghezzaParolaUno < lunghezzaParolaDue){
-    console.log (parolaUno);
+    console.log ('La parola più corta è: ', parolaUno);
 }else {
     console.log ('Le parole hanno la stessa lunghezza');
 }
